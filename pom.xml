@@ -8,10 +8,28 @@
   <artifactId>calMaven</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>calMaven</name>
+  <name>Calculator for simple arithmetic operations</name>
   <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <description> A simple maven project for arithmetic operation</description>
+  <url>https://github.com/Jadli03/calMaven</url>
+    
+     <developers>
+    <developer>
+      <name>suraj jadli</name>
+      <email>xyz@yahoo.com</email>
+      <organization>com.github.jadli03</organization>
+      <organizationUrl>https://github.com/Jadli03/calMaven</organizationUrl>
+    </developer>
+  </developers>
 
+   <scm>
+  <connection>scm:git:git://github.com/Jadli03/calMaven.git</connection>
+  <developerConnection>scm:git:ssh://github.com:Jadli03/calMaven.git</developerConnection>
+  <url>http://github.com/Jadli03/calMaven</url>
+</scm>
+  
+
+   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
